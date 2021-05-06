@@ -81,6 +81,37 @@ console.log(exampleID);
 
 ## Replicate layout
 
+### Project Setup
+
+Make sure you set everything up before starting:
+
+-   [VSCODESETUP](/docs/vscode.md)
+-   [NVM](/docs/nvm.md)
+
+If you're trying to run this in dev mode, cd into the project and run:
+
+```
+yarn && yarn start
+```
+
+If you're trying to run a prod build:
+
+```
+yarn build
+```
+
+If you're trying to run current test:
+
+```
+yarn test
+```
+
+If you're trying to update test snapshot:
+
+```
+yarn test -u
+```
+
 ### Technical Decision:
 - Project is developed with [React App](https://github.com/facebook/create-react-app) & TypeScript based on the timeframe & complexity of the requirements:
     - create-react-app handles webpack config + hot reload + code splitting + bundling for production build for a light weight web app
