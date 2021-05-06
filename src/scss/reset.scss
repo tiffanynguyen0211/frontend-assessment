@@ -93,6 +93,8 @@ input,
 textarea {
   box-sizing: border-box;
   border: none;
+  margin: 0;
   -webkit-appearance: none;
-  outline: none;
+  border-radius: 0;
+  outline: non;
 }

@@ -29,6 +29,7 @@ p {
 }
 
 input,textarea {
+  font-size: inherit; //prevent auto zoom in on some mobile browsers
   opacity: 1;
 
   &:focus {
