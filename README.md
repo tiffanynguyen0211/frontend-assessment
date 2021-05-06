@@ -83,7 +83,7 @@ console.log(exampleID);
 
 ### Technical Decision:
 - Project is developed with [React App](https://github.com/facebook/create-react-app) & TypeScript based on the timeframe & complexity of the requirements:
-    - create-react-app handles webpack config + hot reload + code splitting + bundlising for production build for a light weight web app
+    - create-react-app handles webpack config + hot reload + code splitting + bundling for production build for a light weight web app
     - TypeScript for static type checking, IntelliSense, support for common library and better for code readibilty
 - Project is using tsconfig & prettier for linting & code formatting to maintain code standards
 - Project came with customised vscode config for easier local set up
