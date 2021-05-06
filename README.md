@@ -3,7 +3,7 @@
 
 
 ## HTML/CSS knowledge check
-Please ​give a brief description of the Box Model​:
+### Please ​give a brief description of the Box Model​:
 "Box Model" is a terminology when talking about design & layout of HTML Element. Every HTML element in CSS has a box around it, there are 2 main type
 of boxes: Inline Boxes & Block Boxes. The full CSS Box Model is applying to Block Boxes including parts that made the Block Box:
 - Content: the content of the box
