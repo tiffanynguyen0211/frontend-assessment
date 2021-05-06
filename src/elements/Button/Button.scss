@@ -1,0 +1,9 @@
+@use "../../scss/variables.scss";
+
+.Button {
+    cursor: pointer;
+
+    &:hover, &:focus {
+      background-color: variables.$focus-color;
+    }
+}

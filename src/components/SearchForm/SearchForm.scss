@@ -1,0 +1,24 @@
+@use '../../scss/mixins.scss';
+@use '../../scss/variables.scss';
+
+/** @define SearchForm */
+.SearchForm {
+    display: flex;
+}
+
+.SearchForm__SearchInput {
+    width: 100%;
+    padding: 0  variables.$main-padding;
+  
+    @include mixins.respond(md) {
+      margin: 0 0 0 variables.$padding-unit;
+    }
+}
+  
+.SearchForm__SearchButton {
+    padding: variables.$padding-unit/2;
+
+    @include mixins.respond(md) {
+        padding: variables.$padding-unit;
+    }
+}

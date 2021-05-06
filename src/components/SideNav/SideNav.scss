@@ -1,0 +1,47 @@
+@use '../../scss/mixins';
+@use '../../scss/variables.scss';
+
+/** @define SideNav */
+.SideNav {
+    position: absolute;
+    right: 0;
+    width: calc(50% - #{variables.$main-padding*2});
+    height: 100vh;
+    transition: width 1s;
+
+  
+    @include mixins.respond(md) {
+      width: calc(30% - #{variables.$main-padding*2});
+    }
+    @include mixins.respond(lg) {
+      width: calc(25% - #{variables.$main-padding*2});
+    }
+}
+  
+.SideNav--hidden {
+    width: calc(45px - #{variables.$main-padding*2});;
+    transition: width 1s;
+
+    @include mixins.respond(md) {
+        width: calc(55px - #{variables.$main-padding*2});;
+    }
+}
+  
+.SideNav__Header {
+    display: flex;
+    justify-content: space-between;
+
+    .SideNav--hidden & {
+      justify-content: center;
+    }
+}
+
+.SideNav__Title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.SideNav__Button {
+  padding: variables.$padding-unit;
+}

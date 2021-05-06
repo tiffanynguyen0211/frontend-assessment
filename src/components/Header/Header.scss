@@ -1,0 +1,16 @@
+@use '../../scss/mixins.scss';
+
+/** @define Header */
+.Header {
+    display: flex;
+    align-items: center;
+
+    @include mixins.respond(md) {
+        justify-content: space-between;
+    }
+}
+
+.Header__Title {
+    width: 50%;
+    margin: 0;
+}

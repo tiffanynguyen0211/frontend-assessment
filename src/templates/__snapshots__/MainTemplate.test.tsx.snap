@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main App Test Matches snapshot on first render 1`] = `
+<div
+  className="MainTemplate"
+>
+  <header
+    className="Header MainTemplate__Header"
+  >
+    <h1
+      className="Header__Title"
+    >
+      Header
+    </h1>
+    <form
+      className="SearchForm MainTemplate__SearchForm"
+      onSubmit={[Function]}
+    >
+      <input
+        aria-label="search through website"
+        className="SearchForm__SearchInput"
+        placeholder=""
+        type="text"
+      />
+      <button
+        aria-label="click to search"
+        className="Button SearchForm__SearchButton MainTemplate__SearchButton"
+        onClick={[Function]}
+        type="submit"
+      >
+        <span>
+          <svg
+            fill="currentColor"
+            height={20}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={20}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+            />
+          </svg>
+        </span>
+      </button>
+    </form>
+  </header>
+  <main
+    className="MainTemplate__Content"
+  >
+    <section
+      className="MainTemplate__Section"
+    >
+      <h1>
+        Content
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit
+amet tortor dolor. Sed urna nibh, tempor ac laoreet id, scelerisque
+nec neque. Duis ut nisi id nunc gravida molestie id eu velit.
+Phasellus posuere auctor ante, sed tempus urna dignissim eget.
+Quisque sit amet magna mauris. Vivamus placerat ante at ultricies
+pulvinar. Nunc et nulla non nisi convallis consequat. Etiam non
+placerat risus, a fringilla augue. Praesent viverra nisi in purus
+dapibus ornare. Suspendisse in porta dui. Aliquam nisl ipsum,
+efficitur eget neque vitae, fringilla tempor urna. Nunc a risus et
+metus sagittis ultrices in vel lorem. In hac habitasse platea
+dictumst.
+      </p>
+    </section>
+    <nav
+      className="SideNav MainTemplate__SideNav"
+    >
+      <header
+        className="SideNav__Header"
+      >
+        <h1
+          className="SideNav__Title"
+        >
+          Side Bar
+        </h1>
+        <button
+          aria-label="click to toggle side navigation"
+          className="Button SideNav__Button"
+          onClick={[Function]}
+          type="button"
+        >
+          <span>
+            <svg
+              fill="currentColor"
+              height={20}
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width={20}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+              />
+            </svg>
+          </span>
+        </button>
+      </header>
+    </nav>
+  </main>
+</div>
+`;
+
+exports[`Main App Test Matches snapshot when click to minimise side navigation 1`] = `
+<div
+  className="MainTemplate"
+>
+  <header
+    className="Header MainTemplate__Header"
+  >
+    <h1
+      className="Header__Title"
+    >
+      Header
+    </h1>
+    <form
+      className="SearchForm MainTemplate__SearchForm"
+      onSubmit={[Function]}
+    >
+      <input
+        aria-label="search through website"
+        className="SearchForm__SearchInput"
+        placeholder=""
+        type="text"
+      />
+      <button
+        aria-label="click to search"
+        className="Button SearchForm__SearchButton MainTemplate__SearchButton"
+        onClick={[Function]}
+        type="submit"
+      >
+        <span>
+          <svg
+            fill="currentColor"
+            height={20}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width={20}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+            />
+          </svg>
+        </span>
+      </button>
+    </form>
+  </header>
+  <main
+    className="MainTemplate__Content"
+  >
+    <section
+      className="MainTemplate__Section"
+    >
+      <h1>
+        Content
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit
+amet tortor dolor. Sed urna nibh, tempor ac laoreet id, scelerisque
+nec neque. Duis ut nisi id nunc gravida molestie id eu velit.
+Phasellus posuere auctor ante, sed tempus urna dignissim eget.
+Quisque sit amet magna mauris. Vivamus placerat ante at ultricies
+pulvinar. Nunc et nulla non nisi convallis consequat. Etiam non
+placerat risus, a fringilla augue. Praesent viverra nisi in purus
+dapibus ornare. Suspendisse in porta dui. Aliquam nisl ipsum,
+efficitur eget neque vitae, fringilla tempor urna. Nunc a risus et
+metus sagittis ultrices in vel lorem. In hac habitasse platea
+dictumst.
+      </p>
+    </section>
+    <nav
+      className="SideNav SideNav--hidden MainTemplate__SideNav"
+    >
+      <header
+        className="SideNav__Header"
+      >
+        <button
+          aria-label="click to toggle side navigation"
+          className="Button SideNav__Button"
+          onClick={[Function]}
+          type="button"
+        >
+          <span>
+            <svg
+              fill="currentColor"
+              height={20}
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                Object {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 448 512"
+              width={20}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"
+              />
+            </svg>
+          </span>
+        </button>
+      </header>
+    </nav>
+  </main>
+</div>
+`;
